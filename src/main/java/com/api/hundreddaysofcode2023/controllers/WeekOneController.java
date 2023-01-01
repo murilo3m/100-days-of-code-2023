@@ -8,8 +8,9 @@ import org.springframework.web.bind.annotation.*;
 @CrossOrigin(origins = "", maxAge = 3600)
 @RequestMapping("/week-one")
 public class WeekOneController {
-    @GetMapping("/day-one")
-    public ResponseEntity<Integer> dayOne(){
-        return ResponseEntity.status(HttpStatus.OK).body(1);
+    @GetMapping("/day-one/{age}")
+    public ResponseEntity<Integer> dayOne(@PathVariable Integer age){
+        Integer days = age * 365;
+        return ResponseEntity.status(HttpStatus.OK).body(days);
     }
 }
