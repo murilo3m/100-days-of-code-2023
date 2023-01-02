@@ -13,4 +13,16 @@ public class WeekOneController {
         Integer days = age * 365;
         return ResponseEntity.status(HttpStatus.OK).body(days);
     }
+
+    @GetMapping("/day-two/{text}")
+    public ResponseEntity<String> dayTwo(@PathVariable String text){
+        Integer position = text.toLowerCase().indexOf("nemo");
+
+        String message = "I can't find Nemo";
+        if(position >= 0){
+            message = "I found Nemo at ".concat(position.toString());
+        }
+
+        return ResponseEntity.status(HttpStatus.OK).body(message);
+    }
 }
