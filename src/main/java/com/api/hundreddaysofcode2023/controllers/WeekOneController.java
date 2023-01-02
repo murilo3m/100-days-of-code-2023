@@ -1,5 +1,6 @@
 package com.api.hundreddaysofcode2023.controllers;
 
+import io.swagger.annotations.ApiOperation;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
@@ -9,12 +10,14 @@ import org.springframework.web.bind.annotation.*;
 @RequestMapping("/week-one")
 public class WeekOneController {
     @GetMapping("/day-one/{age}")
+    @ApiOperation("Método que retorna idade em dias")
     public ResponseEntity<Integer> dayOne(@PathVariable Integer age){
         Integer days = age * 365;
         return ResponseEntity.status(HttpStatus.OK).body(days);
     }
 
     @GetMapping("/day-two/{text}")
+    @ApiOperation("Método que procura a palavra Nemo em uma String")
     public ResponseEntity<String> dayTwo(@PathVariable String text){
         Integer position = text.toLowerCase().indexOf("nemo");
 
