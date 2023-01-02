@@ -20,7 +20,7 @@ Data de Início: 01/01/2023
 
 day-01 - Convert Age to Days [✅]
 
-day-02 - Finding Nemo 
+day-02 - Finding Nemo [✅]
 
 day-03 - Barbecue Skewers 
 
