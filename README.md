@@ -22,7 +22,7 @@ day-01 - Convert Age to Days [✅]
 
 day-02 - Finding Nemo [✅]
 
-day-03 - Barbecue Skewers 
+day-03 - Barbecue Skewers [✅]
 
 day-04 - Is Johnny Making Progress?
 
