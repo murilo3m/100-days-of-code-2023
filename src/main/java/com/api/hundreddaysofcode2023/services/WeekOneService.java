@@ -2,7 +2,8 @@ package com.api.hundreddaysofcode2023.services;
 
 import org.springframework.stereotype.Service;
 
-import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.stream.Stream;
 
 @Service
 public class WeekOneService {
@@ -37,5 +38,22 @@ public class WeekOneService {
             }
         }
         return String.format("Vegetarian Skewers: %s, non vegetarian skewers: %s", vegSkewers, nonVegSkewers);
+    }
+
+    //Método responsável por identificar o progresso de um atetla que está treinando para uma maratona
+    public String isJohnnyMakingProgress(String milesPerDay){
+        int[] mpd = Stream.of(milesPerDay.replace(" ", "")
+                .split(","))
+                .mapToInt(Integer::parseInt)
+                .toArray();
+
+        Integer progress = 0;
+        for (int i = 0; i < mpd.length; i++) {
+            if(i + 1 < mpd.length){
+                progress += mpd[i] < mpd[i + 1] ? 1 : 0;
+            }
+        }
+
+        return String.format("Jhonny has %s progress days", progress);
     }
 }

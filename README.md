@@ -24,7 +24,7 @@ day-02 - Finding Nemo [✅]
 
 day-03 - Barbecue Skewers [✅]
 
-day-04 - Is Johnny Making Progress?
+day-04 - Is Johnny Making Progress?  [✅]
 
 day-05 - Pair of Socks
 

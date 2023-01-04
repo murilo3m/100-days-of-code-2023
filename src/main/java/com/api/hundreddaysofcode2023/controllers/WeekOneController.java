@@ -37,4 +37,11 @@ public class WeekOneController {
         String message = weekOneService.vegeterianSkewer(skewers);
         return ResponseEntity.status(HttpStatus.OK).body(message);
     }
+
+    @GetMapping("/day4/{milesPerDay}")
+    @ApiOperation(value = "Método que recebe uma lista de milhas percorridas por um atleta que está treinando para maratona e identifica os dias que houveram progresso", notes = "Exemplo de request: \"3,4,1,2\" ")
+    public ResponseEntity<String> dayFour(@PathVariable String milesPerDay){
+        String message = weekOneService.isJohnnyMakingProgress(milesPerDay);
+        return ResponseEntity.status(HttpStatus.OK).body(message);
+    }
 }
