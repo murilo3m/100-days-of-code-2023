@@ -44,4 +44,11 @@ public class WeekOneController {
         String message = weekOneService.isJohnnyMakingProgress(milesPerDay);
         return ResponseEntity.status(HttpStatus.OK).body(message);
     }
+
+    @GetMapping("/day5/{unorganizedSocks}")
+    @ApiOperation("Método que recebe uma sequência de meias e devolve quantidade de pares, cada letra representa uma meia e é organizada com suas respectivas iguais")
+    public ResponseEntity<Integer> dayFive(@PathVariable String unorganizedSocks){
+        Integer pairOfSocks = weekOneService.pairOfSocks(unorganizedSocks);
+        return ResponseEntity.status(HttpStatus.OK).body(pairOfSocks);
+    }
 }

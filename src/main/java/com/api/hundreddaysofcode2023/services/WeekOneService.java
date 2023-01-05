@@ -1,6 +1,7 @@
 package com.api.hundreddaysofcode2023.services;
 
 import org.springframework.stereotype.Service;
+import org.springframework.util.StringUtils;
 
 import java.util.Arrays;
 import java.util.stream.Stream;
@@ -55,5 +56,17 @@ public class WeekOneService {
         }
 
         return String.format("Jhonny has %s progress days", progress);
+    }
+
+    //Método que organiza em pares as letras que são representadas por meias,
+    public Integer pairOfSocks(String unorganizedSocks){
+        String[] socks = unorganizedSocks.split("");
+        Integer count = 0;
+        for (String sock : socks) {
+            if(StringUtils.countOccurrencesOf(unorganizedSocks, sock) >= 2){
+                count++;
+            }
+        }
+        return (int) Math.floor(count / 2);
     }
 }

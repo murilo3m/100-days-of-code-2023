@@ -26,7 +26,7 @@ day-03 - Barbecue Skewers [✅]
 
 day-04 - Is Johnny Making Progress?  [✅]
 
-day-05 - Pair of Socks
+day-05 - Pair of Socks [✅]
 
 day-06 - Next Prime
 
