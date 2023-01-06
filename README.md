@@ -28,6 +28,6 @@ day-04 - Is Johnny Making Progress?  [✅]
 
 day-05 - Pair of Socks [✅]
 
-day-06 - Next Prime
+day-06 - Next Prime [✅]
 
 day-07 - Merge Sorted Array

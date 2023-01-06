@@ -1,7 +1,6 @@
 package com.api.hundreddaysofcode2023.controllers;
 
 import com.api.hundreddaysofcode2023.services.WeekOneService;
-import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
@@ -50,5 +49,12 @@ public class WeekOneController {
     public ResponseEntity<Integer> dayFive(@PathVariable String unorganizedSocks){
         Integer pairOfSocks = weekOneService.pairOfSocks(unorganizedSocks);
         return ResponseEntity.status(HttpStatus.OK).body(pairOfSocks);
+    }
+
+    @GetMapping("/day6/{number}")
+    @ApiOperation("Método que recebe um número inteiro e retorna o próximo número primo")
+    public ResponseEntity<Integer> daySix(@PathVariable Integer number){
+        Integer prime = weekOneService.nextPrime(number);
+        return ResponseEntity.status(HttpStatus.OK).body(prime);
     }
 }

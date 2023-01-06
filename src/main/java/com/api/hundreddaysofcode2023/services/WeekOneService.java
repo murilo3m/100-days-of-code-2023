@@ -58,7 +58,7 @@ public class WeekOneService {
         return String.format("Jhonny has %s progress days", progress);
     }
 
-    //Método que organiza em pares as letras que são representadas por meias,
+    //Método que organiza em pares as letras que são representadas por "meias"
     public Integer pairOfSocks(String unorganizedSocks){
         String[] socks = unorganizedSocks.split("");
         Integer count = 0;
@@ -68,5 +68,34 @@ public class WeekOneService {
             }
         }
         return (int) Math.floor(count / 2);
+    }
+
+    //Método que recebe um número inteiro e retorna o próximo número primo
+    public Integer nextPrime(Integer number){
+        Integer rNumber = number;
+        if(!isPrime(number)){
+            do{
+                rNumber++;
+                if(isPrime(rNumber)){
+                    break;
+                }
+            } while(true);
+        }
+        return rNumber;
+    }
+
+    //Método que verifica se é número primo
+    public Boolean isPrime(Integer number){
+        Boolean r = true;
+        if(number < 2){
+            r = false;
+        }
+
+        for (int i = 2; i < Math.sqrt(number); i++) {
+            if(number % i == 0){
+                r = false;
+            }
+        }
+        return r;
     }
 }
