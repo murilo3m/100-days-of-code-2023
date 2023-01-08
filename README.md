@@ -30,4 +30,4 @@ day-05 - Pair of Socks [✅]
 
 day-06 - Next Prime [✅]
 
-day-07 - Merge Sorted Array
+day-07 - Merge Sorted Array [✅]

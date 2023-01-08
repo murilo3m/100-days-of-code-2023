@@ -7,6 +7,9 @@ import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
+import java.lang.reflect.Array;
+import java.util.ArrayList;
+
 @RestController
 @CrossOrigin(origins = "", maxAge = 3600)
 @RequestMapping("/week-one")
@@ -56,5 +59,13 @@ public class WeekOneController {
     public ResponseEntity<Integer> daySix(@PathVariable Integer number){
         Integer prime = weekOneService.nextPrime(number);
         return ResponseEntity.status(HttpStatus.OK).body(prime);
+    }
+
+    //Método que faz o merge e ordena dois arrays númericos
+    @GetMapping("/day7/{array1}/{array2}")
+    @ApiOperation("Método que faz o merge e ordena dois arrays númericos")
+    public ResponseEntity<ArrayList<Integer>> daySeven(@PathVariable ArrayList<Integer> array1, @PathVariable ArrayList<Integer> array2){
+        ArrayList<Integer> mergedArrays = weekOneService.arrayMerger(array1,array2);
+        return ResponseEntity.status(HttpStatus.OK).body(mergedArrays);
     }
 }

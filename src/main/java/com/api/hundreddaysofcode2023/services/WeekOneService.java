@@ -3,7 +3,8 @@ package com.api.hundreddaysofcode2023.services;
 import org.springframework.stereotype.Service;
 import org.springframework.util.StringUtils;
 
-import java.util.Arrays;
+import java.lang.reflect.Array;
+import java.util.*;
 import java.util.stream.Stream;
 
 @Service
@@ -97,5 +98,13 @@ public class WeekOneService {
             }
         }
         return r;
+    }
+
+    //Método que faz o merge e ordena dois arrays númericos
+    public ArrayList<Integer> arrayMerger(ArrayList<Integer> array1, ArrayList<Integer> array2){
+        array1.addAll(array2);
+        array1.removeIf(n -> n.equals(0));
+        Collections.sort(array1);
+        return array1;
     }
 }
