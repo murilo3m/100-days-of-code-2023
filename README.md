@@ -18,16 +18,20 @@ Data de Início: 01/01/2023
 
 ## Index
 
-day-01 - Convert Age to Days [✅]
+### Week 1:
+- day-01 - Convert Age to Days [✅]
 
-day-02 - Finding Nemo [✅]
+- day-02 - Finding Nemo [✅]
 
-day-03 - Barbecue Skewers [✅]
+- day-03 - Barbecue Skewers [✅]
 
-day-04 - Is Johnny Making Progress?  [✅]
+- day-04 - Is Johnny Making Progress?  [✅]
 
-day-05 - Pair of Socks [✅]
+- day-05 - Pair of Socks [✅]
 
-day-06 - Next Prime [✅]
+- day-06 - Next Prime [✅]
 
-day-07 - Merge Sorted Array [✅]
+- day-07 - Merge Sorted Array [✅]
+
+### Week 2:
+- day-08 - Letter Combinations of a Phone Number [✅]
