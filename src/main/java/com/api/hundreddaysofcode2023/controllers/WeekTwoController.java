@@ -2,6 +2,7 @@ package com.api.hundreddaysofcode2023.controllers;
 
 import com.api.hundreddaysofcode2023.services.WeekTwoService;
 import io.swagger.annotations.ApiOperation;
+import io.swagger.models.Response;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
@@ -21,5 +22,12 @@ public class WeekTwoController {
     public ResponseEntity<ArrayList<String>> dayEight(@PathVariable String digits){
         ArrayList<String> digitsMapping = weekTwoService.digitsMapping(digits);
         return ResponseEntity.status(HttpStatus.OK).body(digitsMapping);
+    }
+
+    @GetMapping("/day9/{elevationMap}")
+    @ApiOperation(value = "Método que retorna quantidade de água que pode ser retida baseado em um mapa de elevação", notes = "Exemplo de input: 4,2,0,3,2,5 -> Resposta: 9")
+    public ResponseEntity<Integer> dayNine(@PathVariable Integer[] elevationMap){
+        Integer trap = weekTwoService.trappingRainWeater(elevationMap);
+        return ResponseEntity.status(HttpStatus.OK).body(trap);
     }
 }
