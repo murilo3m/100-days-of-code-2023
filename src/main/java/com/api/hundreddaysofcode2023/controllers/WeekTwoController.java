@@ -30,4 +30,11 @@ public class WeekTwoController {
         Integer trap = weekTwoService.trappingRainWeater(elevationMap);
         return ResponseEntity.status(HttpStatus.OK).body(trap);
     }
+
+    @GetMapping("/day10/{n}")
+    @ApiOperation(value = "Método que retorna quantas Árvores Binárias de Pesquisa Exclusivas estruturalmente únicos armazenam", notes = "Exemplo de input: 3 -> Resposta: 5")
+    public ResponseEntity<Integer> dayNine(@PathVariable Integer n){
+        Integer uniqueBSTs = weekTwoService.uniqueBSTs(n);
+        return ResponseEntity.status(HttpStatus.OK).body(uniqueBSTs);
+    }
 }
