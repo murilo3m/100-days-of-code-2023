@@ -37,4 +37,11 @@ public class WeekTwoController {
         Integer uniqueBSTs = weekTwoService.uniqueBSTs(n);
         return ResponseEntity.status(HttpStatus.OK).body(uniqueBSTs);
     }
+
+    @GetMapping("/day11/{s}")
+    @ApiOperation(value = "Método que retorna possíveis IPs IPV4 a partir de uma string", notes = "Exemplo de input: 25525511135 -> Resposta: [\"255.255.11.135\",\"255.255.111.35\"]")
+    public ResponseEntity<ArrayList<String>> dayNine(@PathVariable String s){
+        ArrayList<String> ipAddresses = weekTwoService.restoreIpAddresses(s);
+        return ResponseEntity.status(HttpStatus.OK).body(ipAddresses);
+    }
 }

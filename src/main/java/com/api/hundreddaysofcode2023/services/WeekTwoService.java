@@ -14,7 +14,7 @@ public class WeekTwoService {
             return res;
         }
 
-        String[] mapping = new String[] {"0", "1", "abc", "def", "ghi", "jkl", "mno", "pqrs", "tuv", "wxyz"};
+        String[] mapping = new String[]{"0", "1", "abc", "def", "ghi", "jkl", "mno", "pqrs", "tuv", "wxyz"};
         res.add("");
         for (int i = 0; i < digits.length(); i++) {
             int num = Character.getNumericValue(digits.charAt(i));
@@ -65,4 +65,41 @@ public class WeekTwoService {
         return dp[n];
     }
 
+    //Dado uma string "s" contendo apenas dígitos, retorne todos os possíveis endereços IP(ipv4) que podem ser obtidos.
+    public ArrayList<String> restoreIpAddresses(String s) {
+        ArrayList<String> res = new ArrayList<>();
+        backtrackIpAddresses(s, 0, new ArrayList<>(), res);
+        return res;
+    }
+
+
+    //Função de Apoio day-11
+    private void backtrackIpAddresses(String s, int start, ArrayList<String> parts, ArrayList<String> res) {
+        if (parts.size() == 4 && start == s.length()) {
+            res.add(String.join(".", parts));
+            return;
+        }
+
+        if (start >= s.length() || parts.size() >= 4) {
+            return;
+        }
+
+        for (int i = start; i < start + 3 && i < s.length(); i++) {
+            String segment = s.substring(start, i + 1);
+            if (isValidIpAddresses(segment)) {
+                parts.add(segment);
+                backtrackIpAddresses(s, i + 1, parts, res);
+                parts.remove(parts.size() - 1);
+            }
+        }
+    }
+
+    //Função de Apoio day-11
+    private boolean isValidIpAddresses(String segment) {
+        if (segment.length() > 1 && segment.charAt(0) == '0') {
+            return false;
+        }
+        int num = Integer.parseInt(segment);
+        return num >= 0 && num <= 255;
+    }
 }
