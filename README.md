@@ -34,6 +34,8 @@ Data de Início: 01/01/2023
 - day-07 - Merge Sorted Array [✅]
 
 ### Week 2:
-- day-08 - Letter Combinations of a Phone Number 
+- day-08 - Letter Combinations of a Phone Number [✅]
 - day-09 - Trapping Rain Water [✅]
-- day-10 - Unique Binary Search Trees
+- day-10 - Unique Binary Search Trees[✅]
+- day-11 - Restore IP Addresses [✅]
+- day-12 - Mountains or Valleys
