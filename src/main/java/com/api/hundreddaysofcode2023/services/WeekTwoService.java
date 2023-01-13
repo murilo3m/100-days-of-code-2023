@@ -102,4 +102,35 @@ public class WeekTwoService {
         int num = Integer.parseInt(segment);
         return num >= 0 && num <= 255;
     }
+
+    public String landscapeType(Integer[] arr) {
+        int n = arr.length;
+        boolean increasing = true;
+        boolean decreasing = true;
+        int peak = -1;
+        int trough = -1;
+        for (int i = 1; i < n - 1; i++) {
+            if (increasing && arr[i] > arr[i - 1]) {
+                if (decreasing) {
+                    decreasing = false;
+                    peak = i;
+                }
+            } else if (decreasing && arr[i] < arr[i - 1]) {
+                if (increasing) {
+                    increasing = false;
+                    trough = i;
+                }
+            } else {
+                return "neither";
+            }
+        }
+
+        if (peak != -1 && !decreasing) {
+            return "mountain";
+        } else if (trough != -1 && !increasing) {
+            return "valley";
+        } else {
+            return "neither";
+        }
+    }
 }

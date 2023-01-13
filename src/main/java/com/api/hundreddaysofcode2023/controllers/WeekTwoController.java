@@ -33,15 +33,29 @@ public class WeekTwoController {
 
     @GetMapping("/day10/{n}")
     @ApiOperation(value = "Método que retorna quantas Árvores Binárias de Pesquisa Exclusivas estruturalmente únicos armazenam", notes = "Exemplo de input: 3 -> Resposta: 5")
-    public ResponseEntity<Integer> dayNine(@PathVariable Integer n){
+    public ResponseEntity<Integer> dayTen(@PathVariable Integer n){
         Integer uniqueBSTs = weekTwoService.uniqueBSTs(n);
         return ResponseEntity.status(HttpStatus.OK).body(uniqueBSTs);
     }
 
     @GetMapping("/day11/{s}")
     @ApiOperation(value = "Método que retorna possíveis IPs IPV4 a partir de uma string", notes = "Exemplo de input: 25525511135 -> Resposta: [\"255.255.11.135\",\"255.255.111.35\"]")
-    public ResponseEntity<ArrayList<String>> dayNine(@PathVariable String s){
+    public ResponseEntity<ArrayList<String>> dayEleven(@PathVariable String s){
         ArrayList<String> ipAddresses = weekTwoService.restoreIpAddresses(s);
         return ResponseEntity.status(HttpStatus.OK).body(ipAddresses);
+    }
+
+    @GetMapping("/day12/{arr}")
+    @ApiOperation(value = "Método que retorna se é uma \"moutain\", \"valley\" ou \"neither\" base em algumas regras", notes = "Exemplo de input: [3, 4, 5, 4, 3] -> Resposta: mountain")
+    public ResponseEntity<String> dayTwelve(@PathVariable Integer[] arr){
+        String landscapeType = weekTwoService.landscapeType(arr);
+        return ResponseEntity.status(HttpStatus.OK).body(landscapeType);
+    }
+
+    @GetMapping("/day13/{arr}")
+    @ApiOperation(value = "Método que retorna se é uma \"moutain\", \"valley\" ou \"neither\" base em algumas regras", notes = "Exemplo de input: [3, 4, 5, 4, 3] -> Resposta: mountain")
+    public ResponseEntity<String> dayTwelve(@PathVariable Integer[] arr){
+        String landscapeType = weekTwoService.landscapeType(arr);
+        return ResponseEntity.status(HttpStatus.OK).body(landscapeType);
     }
 }
