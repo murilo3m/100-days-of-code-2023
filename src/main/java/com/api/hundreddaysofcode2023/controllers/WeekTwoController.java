@@ -51,11 +51,4 @@ public class WeekTwoController {
         String landscapeType = weekTwoService.landscapeType(arr);
         return ResponseEntity.status(HttpStatus.OK).body(landscapeType);
     }
-
-    @GetMapping("/day13/{arr}")
-    @ApiOperation(value = "Método que retorna se é uma \"moutain\", \"valley\" ou \"neither\" base em algumas regras", notes = "Exemplo de input: [3, 4, 5, 4, 3] -> Resposta: mountain")
-    public ResponseEntity<String> dayTwelve(@PathVariable Integer[] arr){
-        String landscapeType = weekTwoService.landscapeType(arr);
-        return ResponseEntity.status(HttpStatus.OK).body(landscapeType);
-    }
 }
