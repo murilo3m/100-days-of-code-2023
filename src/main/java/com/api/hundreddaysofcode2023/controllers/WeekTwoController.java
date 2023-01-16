@@ -58,4 +58,18 @@ public class WeekTwoController {
         Boolean enoughBags = weekTwoService.enoughBags(arr, numBags);
         return ResponseEntity.status(HttpStatus.OK).body(enoughBags);
     }
+
+    @GetMapping("/day14/{str}")
+    @ApiOperation(value = "Método que retorna a criptografia de uma palavra baseado em algumas regras", notes = "Exemplo de input: apple - Resposta: 1lpp0aca")
+    public ResponseEntity<String> dayFourteen(@PathVariable String str){
+        String encrypted = weekTwoService.encrypt(str);
+        return ResponseEntity.status(HttpStatus.OK).body(encrypted);
+    }
+
+    @GetMapping("/day15/{str}/{strAnagram}")
+    @ApiOperation(value = "Método que retorna true or false se a strAnagram é um anagrama valido de str", notes = "Exemplo de input: \"anagram\" e \"nagaram\" - Resposta: true")
+    public ResponseEntity<Boolean> dayFifteen(@PathVariable String str, @PathVariable String strAnagram){
+        Boolean isAnagram = weekTwoService.isAnagram(str, strAnagram);
+        return ResponseEntity.status(HttpStatus.OK).body(isAnagram);
+    }
 }

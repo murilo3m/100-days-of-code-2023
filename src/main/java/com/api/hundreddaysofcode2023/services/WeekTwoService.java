@@ -4,6 +4,8 @@ import org.springframework.stereotype.Service;
 
 import java.lang.reflect.Array;
 import java.util.ArrayList;
+import java.util.Map;
+import java.util.stream.Collectors;
 
 @Service
 public class WeekTwoService {
@@ -140,5 +142,53 @@ public class WeekTwoService {
     public Boolean enoughBags(ArrayList<Integer> itemWeights, Integer numBags) {
         int totalWeight = itemWeights.stream().mapToInt(Integer::intValue).sum();
         return totalWeight <= numBags * 10;
+    }
+
+    //Função que codifica uma determinada entrada com estas etapas
+    public String encrypt(String input) {
+        String vowels = "aeiouAEIOU";
+        Map<Character, Character> replaceMap = Map.of(
+                'a', '0',
+                'e', '1',
+                'i', '2',
+                'o', '3',
+                'u', '4',
+                'A', '5',
+                'E', '6',
+                'I', '7',
+                'O', '8',
+                'U', '9'
+        );
+        // Step 1: Reverse the input
+        String reversed = new StringBuilder(input).reverse().toString();
+        // Step 2: Replace vowels
+        String encrypted = reversed.chars()
+                .mapToObj(c -> (char) c)
+                .map(c -> vowels.indexOf(c) != -1 ? replaceMap.get(c) : c)
+                .map(String::valueOf)
+                .collect(Collectors.joining());
+
+        //Step 3: Add "aca" to the end of the word
+        return encrypted.concat("aca");
+    }
+
+    //Dadas duas strings s e t , escreva uma função para determinar se t é um anagrama de s.
+    public Boolean isAnagram(String s, String t) {
+        // Convert the strings to lowercase
+        s = s.toLowerCase();
+        t = t.toLowerCase();
+        // Sort the characters in the strings
+        String sortedS = s.chars()
+                .sorted()
+                .mapToObj(c -> (char) c)
+                .map(String::valueOf)
+                .collect(Collectors.joining());
+        String sortedT = t.chars()
+                .sorted()
+                .mapToObj(c -> (char) c)
+                .map(String::valueOf)
+                .collect(Collectors.joining());
+        // Compare the sorted strings
+        return sortedS.equals(sortedT);
     }
 }
