@@ -41,3 +41,4 @@ Data de Início: 01/01/2023
 - day-12 - Mountains or Valleys
 - day-13 - Need Help With Your Packing?
 - day-14 - The Karaca's Encryption Algorithm
+- day-15 - Valid Anagram
