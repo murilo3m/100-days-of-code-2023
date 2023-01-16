@@ -51,4 +51,11 @@ public class WeekTwoController {
         String landscapeType = weekTwoService.landscapeType(arr);
         return ResponseEntity.status(HttpStatus.OK).body(landscapeType);
     }
+
+    @GetMapping("/day13/{arr}/{numBags}")
+    @ApiOperation(value = "Método que retorna true ou false se é possível levar as compras nas sacolas, baseado em peso de itens e número de sacolas que você possui", notes = "Exemplo de input: [2, 1, 2, 5, 4, 3, 6, 1, 1, 9, 3, 2] - Resposta: true")
+    public ResponseEntity<Boolean> dayThirteen(@PathVariable ArrayList<Integer> arr, @PathVariable Integer numBags){
+        Boolean enoughBags = weekTwoService.enoughBags(arr, numBags);
+        return ResponseEntity.status(HttpStatus.OK).body(enoughBags);
+    }
 }

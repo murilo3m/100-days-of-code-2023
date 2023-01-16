@@ -2,6 +2,7 @@ package com.api.hundreddaysofcode2023.services;
 
 import org.springframework.stereotype.Service;
 
+import java.lang.reflect.Array;
 import java.util.ArrayList;
 
 @Service
@@ -133,5 +134,11 @@ public class WeekTwoService {
         } else {
             return "neither";
         }
+    }
+
+    //Crie uma função que leve dois parâmetros, uma lista dos pesos de cada item e o número de sacolas que você está carregando. Retornar True se houver sacolas suficientes para conter todos os itens, caso contrário, False.
+    public Boolean enoughBags(ArrayList<Integer> itemWeights, Integer numBags) {
+        int totalWeight = itemWeights.stream().mapToInt(Integer::intValue).sum();
+        return totalWeight <= numBags * 10;
     }
 }
