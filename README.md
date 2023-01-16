@@ -42,3 +42,4 @@ Data de Início: 01/01/2023
 - day-13 - Need Help With Your Packing?
 - day-14 - The Karaca's Encryption Algorithm
 - day-15 - Valid Anagram
+- day-16 - Nim Game
