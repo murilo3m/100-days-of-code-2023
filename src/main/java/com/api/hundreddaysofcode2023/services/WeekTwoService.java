@@ -103,6 +103,7 @@ public class WeekTwoService {
         return num >= 0 && num <= 255;
     }
 
+    //Método para definir se é uma montanha, valley ou neither.
     public String landscapeType(Integer[] arr) {
         int n = arr.length;
         boolean increasing = true;
