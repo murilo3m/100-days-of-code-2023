@@ -44,3 +44,5 @@ Data de Início: 01/01/2023
 - day-15 - Valid Anagram [✅]
 - day-16 - Nim Game [✅]
 - day-17 - Prison Break
+- day-18 - Unique Paths
+- day-19 - URL Shortener
