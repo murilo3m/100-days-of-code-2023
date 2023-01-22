@@ -47,3 +47,6 @@ Data de Início: 01/01/2023
 - day-18 - Unique Paths
 - day-19 - URL Shortener
 - day-20 - API Challenge
+
+### Week 3:
+- day-21 - Random Maze Generator
