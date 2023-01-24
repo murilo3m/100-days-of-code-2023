@@ -45,7 +45,7 @@ Data de Início: 01/01/2023
 - day-16 - Nim Game [✅]
 - day-17 - Prison Break [✅]
 - day-18 - Unique Paths [✅]
-- day-19 - URL Shortener
+- day-19 - URL Shortener [✅]
 - day-20 - API Challenge
 
 ### Week 3:

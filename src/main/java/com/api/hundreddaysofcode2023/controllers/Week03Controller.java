@@ -31,8 +31,15 @@ public class Week03Controller {
 
     @GetMapping("/day18/{m}/{n}")
     @ApiOperation(value = "Unique Paths - Método que retorna quantidade de caminhos possíveis a partir de regras", notes = "Exemplo de input: 3 e 7  - Resposta: 28")
-    public ResponseEntity<Integer> dayEightteen(@PathVariable Integer m, @PathVariable Integer n){
+    public ResponseEntity<Integer> dayEighteen(@PathVariable Integer m, @PathVariable Integer n){
         Integer uniquePaths = week03Service.uniquePaths(m,n);
         return ResponseEntity.status(HttpStatus.OK).body(uniquePaths);
+    }
+
+    @GetMapping("/day19/{shortenUrl}")
+    @ApiOperation(value = "URL Shortener - Método que retorna uma URL curta", notes = "Exemplo de input: 3 e 7  - Resposta: 28")
+    public ResponseEntity<String> dayNineteen(@PathVariable String shortenUrl){
+        String shortenedURL = week03Service.shortenUrl(shortenUrl);
+        return ResponseEntity.status(HttpStatus.OK).body(shortenedURL);
     }
 }

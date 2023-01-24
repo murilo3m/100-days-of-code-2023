@@ -3,6 +3,8 @@ package com.api.hundreddaysofcode2023.services;
 import org.springframework.stereotype.Service;
 
 import java.math.BigInteger;
+import java.security.MessageDigest;
+import java.security.NoSuchAlgorithmException;
 import java.util.stream.IntStream;
 
 @Service
@@ -35,5 +37,22 @@ public class Week03Service {
                 )
         );
         return dp[m - 1][n - 1];
+    }
+
+    //O encurtamento de URLs é usado para criar alias mais curtas para URLs longas. Chamamos estes apelidos abreviados de "links curtos". Os usuários são redirecionados para a URL original quando atingem estes links curtos. Os links curtos economizam muito espaço quando exibidos, impressos, enviados por mensagens ou tweeted. Além disso, os usuários são menos propensos a digitar URLs mais curtas de forma errada. O encurtamento de URL é usado para otimizar os links entre dispositivos, rastrear links individuais para analisar o público, medir o desempenho de campanhas publicitárias ou ocultar URLs originais afiliadas.
+    public String shortenUrl(String longUrl) {
+        try {
+            MessageDigest md = MessageDigest.getInstance("SHA-256");
+            byte[] hash = md.digest(longUrl.getBytes());
+            StringBuilder hexString = new StringBuilder();
+            for (byte b : hash) {
+                String hex = Integer.toHexString(0xff & b);
+                if (hex.length() == 1) hexString.append('0');
+                hexString.append(hex);
+            }
+            return "https://short-url.com/".concat(hexString.toString().substring(0, 8));
+        } catch (NoSuchAlgorithmException e) {
+            throw new RuntimeException(e);
+        }
     }
 }
