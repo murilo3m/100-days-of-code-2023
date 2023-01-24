@@ -72,11 +72,4 @@ public class WeekTwoController {
         Boolean isAnagram = weekTwoService.isAnagram(str, strAnagram);
         return ResponseEntity.status(HttpStatus.OK).body(isAnagram);
     }
-
-    @GetMapping("/day16/{number}")
-    @ApiOperation(value = "NimGame - Método que retorna true or false se se você puder ganhar o jogo assumindo que tanto você como seu amigo joguem de forma ótima", notes = "Exemplo de input: \"anagram\" e \"nagaram\" - Resposta: true")
-    public ResponseEntity<Boolean> daySixteen(@PathVariable Integer number){
-        Boolean nimGame = weekTwoService.nimGame(number);
-        return ResponseEntity.status(HttpStatus.OK).body(nimGame);
-    }
 }

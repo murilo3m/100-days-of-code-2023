@@ -191,9 +191,4 @@ public class WeekTwoService {
         // Compare the sorted strings
         return sortedS.equals(sortedT);
     }
-
-    //Dado n, o número de pedras na pilha, retorne verdadeiro se você puder ganhar o jogo assumindo que tanto você como seu amigo joguem de forma ótima, caso contrário, retorne falso.
-    public boolean nimGame(Integer n) {
-        return (n & 1) == 1;
-    }
 }
