@@ -2,13 +2,12 @@ package com.api.hundreddaysofcode2023.services;
 
 import org.springframework.stereotype.Service;
 
-import java.lang.reflect.Array;
 import java.util.ArrayList;
 import java.util.Map;
 import java.util.stream.Collectors;
 
 @Service
-public class WeekTwoService {
+public class Week02Service {
 
     //Dada uma string contendo dígitos de 2 a 9 inclusive, retorne todas as combinações de letras possíveis que o número pode representar. Devolva a resposta em qualquer ordem.
     public ArrayList<String> digitsMapping(String digits) {

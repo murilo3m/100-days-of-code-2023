@@ -3,12 +3,11 @@ package com.api.hundreddaysofcode2023.services;
 import org.springframework.stereotype.Service;
 import org.springframework.util.StringUtils;
 
-import java.lang.reflect.Array;
 import java.util.*;
 import java.util.stream.Stream;
 
 @Service
-public class WeekOneService {
+public class Week01Service {
 
     //Método responsável por retornar idade em dias
     public Integer daysOfAge(Integer age){

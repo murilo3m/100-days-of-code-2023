@@ -52,3 +52,4 @@ Data de Início: 01/01/2023
 - day-21 - Random Maze Generator
 - day-22 - Marcio Mello's Challenge
 - day-23 - The Dining Philosophers
+- day-24 - The Josephus Problem
