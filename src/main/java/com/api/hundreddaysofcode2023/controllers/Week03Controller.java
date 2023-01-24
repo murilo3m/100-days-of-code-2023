@@ -28,4 +28,11 @@ public class Week03Controller {
         Integer freedPrisoners = week03Service.freedPrisoners(arr);
         return ResponseEntity.status(HttpStatus.OK).body(freedPrisoners);
     }
+
+    @GetMapping("/day18/{m}/{n}")
+    @ApiOperation(value = "Unique Paths - Método que retorna quantidade de caminhos possíveis a partir de regras", notes = "Exemplo de input: 3 e 7  - Resposta: 28")
+    public ResponseEntity<Integer> dayEightteen(@PathVariable Integer m, @PathVariable Integer n){
+        Integer uniquePaths = week03Service.uniquePaths(m,n);
+        return ResponseEntity.status(HttpStatus.OK).body(uniquePaths);
+    }
 }

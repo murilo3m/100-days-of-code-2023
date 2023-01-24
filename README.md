@@ -43,8 +43,8 @@ Data de Início: 01/01/2023
 - day-14 - The Karaca's Encryption Algorithm [✅]
 - day-15 - Valid Anagram [✅]
 - day-16 - Nim Game [✅]
-- day-17 - Prison Break
-- day-18 - Unique Paths
+- day-17 - Prison Break [✅]
+- day-18 - Unique Paths [✅]
 - day-19 - URL Shortener
 - day-20 - API Challenge
 
