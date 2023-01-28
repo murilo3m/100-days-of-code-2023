@@ -53,3 +53,7 @@ Data de Início: 01/01/2023
 - day-22 - Marcio Mello's Challenge
 - day-23 - The Dining Philosophers
 - day-24 - The Josephus Problem
+- day-25 - Coin Trouble
+- day-26 - Briefcase Lock
+- day-27 - Task Scheduler
+- day-28 - Word Search
