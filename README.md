@@ -58,4 +58,7 @@ Data de Início: 01/01/2023
 - day-25 - Coin Trouble
 - day-26 - Briefcase Lock
 - day-27 - Task Scheduler
-- day-28 - Word Search
+- day-28 - Word Search3
+
+### Week 5:
+- day-29 - Traffic Light Checker
