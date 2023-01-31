@@ -1,8 +1,14 @@
 package com.api.hundreddaysofcode2023.services;
 
+import com.google.gson.Gson;
 import org.springframework.stereotype.Service;
 
+import java.io.IOException;
+import java.io.InputStream;
+import java.io.InputStreamReader;
 import java.math.BigInteger;
+import java.net.URL;
+import java.net.URLConnection;
 import java.security.MessageDigest;
 import java.security.NoSuchAlgorithmException;
 import java.util.stream.IntStream;
@@ -54,5 +60,26 @@ public class Week03Service {
         } catch (NoSuchAlgorithmException e) {
             throw new RuntimeException(e);
         }
+    }
+
+    public String cityInfo(String city) {
+
+        String url = "https://api.openweathermap.org/data/2.5/weather?q=".concat(city).concat("&appid=66e97ebe08fb974555e8057851b0bd0d").concat("&units=metric&lang=pt_br");
+        String response = "";
+        try {
+            URLConnection connection = new URL(url).openConnection();
+            InputStream input = connection.getInputStream();
+            InputStreamReader reader = new InputStreamReader(input);
+            StringBuilder result = new StringBuilder();
+            int data = reader.read();
+            while (data != -1) {
+                result.append((char) data);
+                data = reader.read();
+            }
+            response = result.toString();
+        } catch (IOException e) {
+            System.out.println("This city does not exist!");
+        }
+        return response;
     }
 }
