@@ -41,15 +41,24 @@ Data de Início: 01/01/2023
 - day-12 - Mountains or Valleys [✅]
 - day-13 - Need Help With Your Packing? [✅]
 - day-14 - The Karaca's Encryption Algorithm [✅]
+
+### Week 3:
 - day-15 - Valid Anagram [✅]
 - day-16 - Nim Game [✅]
 - day-17 - Prison Break [✅]
 - day-18 - Unique Paths [✅]
 - day-19 - URL Shortener [✅]
-- day-20 - API Challenge - Tomorrow
-
-### Week 3:
+- day-20 - API Challenge - Tomorrow(?)
 - day-21 - Random Maze Generator
+
+### Week 4:
 - day-22 - Marcio Mello's Challenge
 - day-23 - The Dining Philosophers
 - day-24 - The Josephus Problem
+- day-25 - Coin Trouble
+- day-26 - Briefcase Lock
+- day-27 - Task Scheduler
+- day-28 - Word Search3
+
+### Week 5:
+- day-29 - Traffic Light Checker
