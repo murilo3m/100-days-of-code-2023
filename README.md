@@ -43,8 +43,9 @@ Data de Início: 01/01/2023
 - day-14 - The Karaca's Encryption Algorithm [✅]
 
 ### Week 3:
-- [day-15 - Valid Anagram [✅]](https://github.com/IAPOLINARIO/100-days-of-code/tree/main/Month-1/Week-03/day-15)
-- [day-16 - Nim Game [✅]](https://github.com/IAPOLINARIO/100-days-of-code/tree/main/Month-1/Week-03/day-61)
+- <a href="https://github.com/IAPOLINARIO/100-days-of-code/tree/main/Month-1/Week-03/day-15" target="_blank">day-15 - Valid Anagram [✅]</a>
+- [day-16 - Nim Game [✅]](https://github.com/IAPOLINARIO/100-days-of-code/tree/main/Month-1/Week-03/day-16
+- )
 - [day-17 - Prison Break [✅]](https://github.com/IAPOLINARIO/100-days-of-code/tree/main/Month-1/Week-03/day-17)
 - [day-18 - Unique Paths [✅]](https://github.com/IAPOLINARIO/100-days-of-code/tree/main/Month-1/Week-03/day-18)
 - [day-19 - URL Shortener [✅]](https://github.com/IAPOLINARIO/100-days-of-code/tree/main/Month-1/Week-03/day-19)
