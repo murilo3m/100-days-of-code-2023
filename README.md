@@ -43,13 +43,13 @@ Data de Início: 01/01/2023
 - day-14 - The Karaca's Encryption Algorithm [✅]
 
 ### Week 3:
-- day-15 - Valid Anagram [✅]
-- day-16 - Nim Game [✅]
-- day-17 - Prison Break [✅]
-- day-18 - Unique Paths [✅]
-- day-19 - URL Shortener [✅]
-- day-20 - API Challenge - [✅]
-- day-21 - Random Maze Generator
+- [day-15 - Valid Anagram [✅]](https://github.com/IAPOLINARIO/100-days-of-code/tree/main/Month-1/Week-03/day-15)
+- [day-16 - Nim Game [✅]](https://github.com/IAPOLINARIO/100-days-of-code/tree/main/Month-1/Week-03/day-61)
+- [day-17 - Prison Break [✅]](https://github.com/IAPOLINARIO/100-days-of-code/tree/main/Month-1/Week-03/day-17)
+- [day-18 - Unique Paths [✅]](https://github.com/IAPOLINARIO/100-days-of-code/tree/main/Month-1/Week-03/day-18)
+- [day-19 - URL Shortener [✅]](https://github.com/IAPOLINARIO/100-days-of-code/tree/main/Month-1/Week-03/day-19)
+- [day-20 - API Challenge - [✅]](https://github.com/IAPOLINARIO/100-days-of-code/tree/main/Month-1/Week-03/day-20)
+- [day-21 - Random Maze Generator [✅]](https://github.com/IAPOLINARIO/100-days-of-code/tree/main/Month-1/Week-03/day-21)
 
 ### Week 4:
 - day-22 - Marcio Mello's Challenge

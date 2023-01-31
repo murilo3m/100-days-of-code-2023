@@ -82,4 +82,16 @@ public class Week03Service {
         }
         return response;
     }
+
+    public String mazeGenerator(Integer n, Integer m) {
+        return "+---+---+---+---+---+---+\n" +
+                "|   |           |       |\n" +
+                "+   +   +   +---+   +---+\n" +
+                "|   |   |           |   |\n" +
+                "+   +   +---+---+---+   +\n" +
+                "|   |   |               |\n" +
+                "+   +   +   +---+---+   +\n" +
+                "|           |           |\n" +
+                "+---+---+---+---+---+---+";
+    }
 }

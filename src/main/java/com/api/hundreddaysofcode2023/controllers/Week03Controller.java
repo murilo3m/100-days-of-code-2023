@@ -49,4 +49,11 @@ public class Week03Controller {
         String cityInfo = week03Service.cityInfo(city);
         return ResponseEntity.status(HttpStatus.OK).body(cityInfo);
     }
+
+    @GetMapping("/day21/{n}/{m}")
+    @ApiOperation(value = "Random Maze Generator - Método que gera uma \"Random Maze\"", notes = "")
+    public ResponseEntity<String> dayTwentyOne(@PathVariable Integer n, @PathVariable Integer m){
+        String mazeGenerator = week03Service.mazeGenerator(n,m);
+        return ResponseEntity.status(HttpStatus.OK).body(mazeGenerator);
+    }
 }
