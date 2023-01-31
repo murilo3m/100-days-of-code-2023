@@ -48,7 +48,7 @@ Data de Início: 01/01/2023
 - day-17 - Prison Break [✅]
 - day-18 - Unique Paths [✅]
 - day-19 - URL Shortener [✅]
-- day-20 - API Challenge - Tomorrow(?)
+- day-20 - API Challenge - [✅]
 - day-21 - Random Maze Generator
 
 ### Week 4:
@@ -62,3 +62,4 @@ Data de Início: 01/01/2023
 
 ### Week 5:
 - day-29 - Traffic Light Checker
+- [ day-30 - The Maximum Value](https://github.com/IAPOLINARIO/100-days-of-code/tree/main/Month-2/Week-05/day-30)

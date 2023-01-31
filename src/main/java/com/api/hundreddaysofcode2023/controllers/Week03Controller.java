@@ -42,4 +42,11 @@ public class Week03Controller {
         String shortenedURL = week03Service.shortenUrl(shortenUrl);
         return ResponseEntity.status(HttpStatus.OK).body(shortenedURL);
     }
+
+    @GetMapping("/day20/{city}")
+    @ApiOperation(value = "API Challenge - Método que dados de uma cidade", notes = "")
+    public ResponseEntity<String> dayTwenty(@PathVariable String city){
+        String cityInfo = week03Service.cityInfo(city);
+        return ResponseEntity.status(HttpStatus.OK).body(cityInfo);
+    }
 }
