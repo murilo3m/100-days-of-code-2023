@@ -63,3 +63,4 @@ Data de Início: 01/01/2023
 ### Week 5:
 - day-29 - Traffic Light Checker
 - [ day-30 - The Maximum Value](https://github.com/IAPOLINARIO/100-days-of-code/tree/main/Month-2/Week-05/day-30)
+- day-32 - The Time in Words
