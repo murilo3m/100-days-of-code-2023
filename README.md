@@ -19,28 +19,22 @@ Data de Início: 01/01/2023
 ## Index
 
 ### Week 1:
-- day-01 - Convert Age to Days [✅]
-
-- day-02 - Finding Nemo [✅]
-
-- day-03 - Barbecue Skewers [✅]
-
-- day-04 - Is Johnny Making Progress?  [✅]
-
-- day-05 - Pair of Socks [✅]
-
-- day-06 - Next Prime [✅]
-
-- day-07 - Merge Sorted Array [✅]
+- [day-01 - Convert Age to Days [✅]](https://github.com/IAPOLINARIO/100-days-of-code/tree/main/Month-1/Week-01/day-01)
+- [day-02 - Finding Nemo [✅]](https://github.com/IAPOLINARIO/100-days-of-code/tree/main/Month-1/Week-01/day-02)
+- [day-03 - Barbecue Skewers [✅]](https://github.com/IAPOLINARIO/100-days-of-code/tree/main/Month-1/Week-01/day-03)
+- [day-04 - Is Johnny Making Progress?  [✅]](https://github.com/IAPOLINARIO/100-days-of-code/tree/main/Month-1/Week-01/day-04)
+- [day-05 - Pair of Socks [✅]](https://github.com/IAPOLINARIO/100-days-of-code/tree/main/Month-1/Week-01/day-05)
+- [day-06 - Next Prime [✅]](https://github.com/IAPOLINARIO/100-days-of-code/tree/main/Month-1/Week-01/day-06)
+- [day-07 - Merge Sorted Array [✅]](https://github.com/IAPOLINARIO/100-days-of-code/tree/main/Month-1/Week-01/day-07)
 
 ### Week 2:
-- day-08 - Letter Combinations of a Phone Number [✅]
-- day-09 - Trapping Rain Water [✅]
-- day-10 - Unique Binary Search Trees[✅]
-- day-11 - Restore IP Addresses [✅]
-- day-12 - Mountains or Valleys [✅]
-- day-13 - Need Help With Your Packing? [✅]
-- day-14 - The Karaca's Encryption Algorithm [✅]
+- [day-08 - Letter Combinations of a Phone Number [✅]](https://github.com/IAPOLINARIO/100-days-of-code/tree/main/Month-1/Week-02/day-08)
+- [day-09 - Trapping Rain Water [✅]](https://github.com/IAPOLINARIO/100-days-of-code/tree/main/Month-1/Week-02/day-09)
+- [day-10 - Unique Binary Search Trees[✅]](https://github.com/IAPOLINARIO/100-days-of-code/tree/main/Month-1/Week-02/day-10)
+- [day-11 - Restore IP Addresses [✅]](https://github.com/IAPOLINARIO/100-days-of-code/tree/main/Month-1/Week-02/day-11)
+- [day-12 - Mountains or Valleys [✅]](https://github.com/IAPOLINARIO/100-days-of-code/tree/main/Month-1/Week-02/day-12)
+- [day-13 - Need Help With Your Packing? [✅]](https://github.com/IAPOLINARIO/100-days-of-code/tree/main/Month-1/Week-02/day-13)
+- [day-14 - The Karaca's Encryption Algorithm [✅]](https://github.com/IAPOLINARIO/100-days-of-code/tree/main/Month-1/Week-02/day-14)
 
 ### Week 3:
 - [day-15 - Valid Anagram [✅]](https://github.com/IAPOLINARIO/100-days-of-code/tree/main/Month-1/Week-03/day-15)
@@ -52,16 +46,16 @@ Data de Início: 01/01/2023
 - [day-21 - Random Maze Generator [✅]](https://github.com/IAPOLINARIO/100-days-of-code/tree/main/Month-1/Week-03/day-21)
 
 ### Week 4:
-- day-22 - Marcio Mello's Challenge
-- day-23 - The Dining Philosophers
-- day-24 - The Josephus Problem
-- day-25 - Coin Trouble
-- day-26 - Briefcase Lock
-- day-27 - Task Scheduler
-- day-28 - Word Search3
+- [day-22 - Marcio Mello's Challenge](https://github.com/IAPOLINARIO/100-days-of-code/tree/main/Month-1/Week-04/day-22)
+- [day-23 - The Dining Philosophers](https://github.com/IAPOLINARIO/100-days-of-code/tree/main/Month-1/Week-04/day-23)
+- [day-24 - The Josephus Problem](https://github.com/IAPOLINARIO/100-days-of-code/tree/main/Month-1/Week-04/day-24)
+- [day-25 - Coin Trouble](https://github.com/IAPOLINARIO/100-days-of-code/tree/main/Month-1/Week-04/day-25)
+- [day-26 - Briefcase Lock](https://github.com/IAPOLINARIO/100-days-of-code/tree/main/Month-1/Week-04/day-26)
+- [day-27 - Task Scheduler](https://github.com/IAPOLINARIO/100-days-of-code/tree/main/Month-1/Week-04/day-27)
+- [day-28 - Word Search3](https://github.com/IAPOLINARIO/100-days-of-code/tree/main/Month-1/Week-04/day-28)
 
 ### Week 5:
-- day-29 - Traffic Light Checker
+- [day-29 - Traffic Light Checker](https://github.com/IAPOLINARIO/100-days-of-code/tree/main/Month-2/Week-05/day-29)
 - [ day-30 - The Maximum Value](https://github.com/IAPOLINARIO/100-days-of-code/tree/main/Month-2/Week-05/day-30)
-- day-31 - The Time in Words
-- day-32 - Climbing the Leaderboard
+- [day-31 - The Time in Words](https://github.com/IAPOLINARIO/100-days-of-code/tree/main/Month-2/Week-05/day-31)
+- [day-32 - Climbing the Leaderboard](https://github.com/IAPOLINARIO/100-days-of-code/tree/main/Month-2/Week-05/day-32)
