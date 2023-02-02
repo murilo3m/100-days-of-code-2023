@@ -1,5 +1,5 @@
 # 100-days-of-code-2023
-Este repositório é do meu desafio 100 dias de código usando Java com Spring
+Este repositório é do meu desafio de 100 dias de código usando Java com Spring
 
 Data de Início: 01/01/2023
 
