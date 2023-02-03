@@ -59,3 +59,4 @@ Data de Início: 01/01/2023
 - [ day-30 - The Maximum Value](https://github.com/IAPOLINARIO/100-days-of-code/tree/main/Month-2/Week-05/day-30)
 - [day-31 - The Time in Words](https://github.com/IAPOLINARIO/100-days-of-code/tree/main/Month-2/Week-05/day-31)
 - [day-32 - Climbing the Leaderboard](https://github.com/IAPOLINARIO/100-days-of-code/tree/main/Month-2/Week-05/day-32)
+- [day-33 - WERTYU](https://github.com/IAPOLINARIO/100-days-of-code/tree/main/Month-2/Week-05/day-33)
