@@ -60,3 +60,5 @@ Data de Início: 01/01/2023
 - [day-31 - The Time in Words](https://github.com/IAPOLINARIO/100-days-of-code/tree/main/Month-2/Week-05/day-31)
 - [day-32 - Climbing the Leaderboard](https://github.com/IAPOLINARIO/100-days-of-code/tree/main/Month-2/Week-05/day-32)
 - [day-33 - WERTYU](https://github.com/IAPOLINARIO/100-days-of-code/tree/main/Month-2/Week-05/day-33)
+- [day-34 - Primary Arithmetic](https://github.com/IAPOLINARIO/100-days-of-code/tree/main/Month-2/Week-05/day-34)
+- [day-35 - Dog and Gopher](https://github.com/IAPOLINARIO/100-days-of-code/tree/main/Month-2/Week-05/day-35)
