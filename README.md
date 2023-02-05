@@ -62,3 +62,6 @@ Data de Início: 01/01/2023
 - [day-33 - WERTYU](https://github.com/IAPOLINARIO/100-days-of-code/tree/main/Month-2/Week-05/day-33)
 - [day-34 - Primary Arithmetic](https://github.com/IAPOLINARIO/100-days-of-code/tree/main/Month-2/Week-05/day-34)
 - [day-35 - Dog and Gopher](https://github.com/IAPOLINARIO/100-days-of-code/tree/main/Month-2/Week-05/day-35)
+
+### Week 6:
+- [day-36 - LCD Display](https://github.com/IAPOLINARIO/100-days-of-code/tree/main/Month-2/Week-06/day-36)
