@@ -65,3 +65,5 @@ Data de Início: 01/01/2023
 
 ### Week 6:
 - [day-36 - LCD Display](https://github.com/IAPOLINARIO/100-days-of-code/tree/main/Month-2/Week-06/day-36)
+- [day-37 - Breaking the Records](https://github.com/IAPOLINARIO/100-days-of-code/tree/main/Month-2/Week-06/day-37)
+
