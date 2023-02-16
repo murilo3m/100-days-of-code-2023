@@ -69,4 +69,32 @@ Data de Início: 01/01/2023
 - [day-38 - Electronics Shop](https://github.com/IAPOLINARIO/100-days-of-code/tree/main/Month-2/Week-06/day-38)
 - [day-39 - Halloween Sale](https://github.com/IAPOLINARIO/100-days-of-code/tree/main/Month-2/Week-06/day-39)
 - [day-40 - Larry's Array](https://github.com/IAPOLINARIO/100-days-of-code/tree/main/Month-2/Week-06/day-40)
+- [day-41 - Sales by Match](https://github.com/IAPOLINARIO/100-days-of-code/tree/main/Month-2/Week-06/day-41)
+- [day-42 - Drawing Book](https://github.com/IAPOLINARIO/100-days-of-code/tree/main/Month-2/Week-06/day-42)
 
+### Week 7:
+- [day-43 - Area of a Triangle](https://github.com/IAPOLINARIO/100-days-of-code/tree/main/Month-2/Week-07/day-43)
+- [day-44 - Maximum Edge of a Triangle](https://github.com/IAPOLINARIO/100-days-of-code/tree/main/Month-2/Week-07/day-44)
+- [day-45 - Subtract the swapped bits without temp storage](https://github.com/IAPOLINARIO/100-days-of-code/tree/main/Month-2/Week-07/day-45)
+- [day-46 - Hot Pics of Danny DeVito!](https://github.com/IAPOLINARIO/100-days-of-code/tree/main/Month-2/Week-07/day-46)
+- [day-47 - Zip It!](https://github.com/IAPOLINARIO/100-days-of-code/tree/main/Month-2/Week-07/day-47)
+- [day-48 - Christmas Tree](https://github.com/IAPOLINARIO/100-days-of-code/tree/main/Month-2/Week-07/day-48)
+- [day-49 - Swimming Pool](https://github.com/IAPOLINARIO/100-days-of-code/tree/main/Month-2/Week-07/day-49)
+
+### Week 8:
+- [day-50 - Tic Tac Toe](https://github.com/IAPOLINARIO/100-days-of-code/tree/main/Month-2/Week-08/day-50)
+- [day-51 - Asteroid Collision](https://github.com/IAPOLINARIO/100-days-of-code/tree/main/Month-2/Week-08/day-51)
+- [day-52 - Switch on the Gravity](https://github.com/IAPOLINARIO/100-days-of-code/tree/main/Month-2/Week-08/day-52)
+- [day-53 - Javelin Parabolic Throw](https://github.com/IAPOLINARIO/100-days-of-code/tree/main/Month-2/Week-08/day-53)
+- [day-54 - RGB to Hex Color Converter](https://github.com/IAPOLINARIO/100-days-of-code/tree/main/Month-2/Week-08/day-54)
+- [day-55 - Filter Repeating Character Strings](https://github.com/IAPOLINARIO/100-days-of-code/tree/main/Month-2/Week-08/day-55)
+- [day-56 - Swimming Pool](https://github.com/IAPOLINARIO/100-days-of-code/tree/main/Month-2/Week-08/day-56)
+
+### Week 9:
+- [day-57 - Magic Sigil Generator](https://github.com/IAPOLINARIO/100-days-of-code/tree/main/Month-3/Week-09/day-57)
+- [day-58 - Create a Dice Roller](https://github.com/IAPOLINARIO/100-days-of-code/tree/main/Month-3/Week-09/day-58)
+- [day-59 - Perfectly balanced](https://github.com/IAPOLINARIO/100-days-of-code/tree/main/Month-3/Week-09/day-59)
+- [day-60 - A Game of Threes](https://github.com/IAPOLINARIO/100-days-of-code/tree/main/Month-3/Week-09/day-60)
+- [day-61 - Write a Web Crawler](https://github.com/IAPOLINARIO/100-days-of-code/tree/main/Month-3/Week-09/day-61)
+- [day-62 - Funny plant](https://github.com/IAPOLINARIO/100-days-of-code/tree/main/Month-3/Week-09/day-62)
+- [day-63 - The rabbit problem](https://github.com/IAPOLINARIO/100-days-of-code/tree/main/Month-3/Week-09/day-63)
