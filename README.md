@@ -98,3 +98,12 @@ Data de Início: 01/01/2023
 - [day-61 - Write a Web Crawler](https://github.com/IAPOLINARIO/100-days-of-code/tree/main/Month-3/Week-09/day-61)
 - [day-62 - Funny plant](https://github.com/IAPOLINARIO/100-days-of-code/tree/main/Month-3/Week-09/day-62)
 - [day-63 - The rabbit problem](https://github.com/IAPOLINARIO/100-days-of-code/tree/main/Month-3/Week-09/day-63)
+
+### Week 10:
+- [day-64 - Magic Sigil Generator](https://github.com/IAPOLINARIO/100-days-of-code/tree/main/Month-3/Week-10/day-64)
+- [day-65 - Create a Dice Roller](https://github.com/IAPOLINARIO/100-days-of-code/tree/main/Month-3/Week-10/day-65)
+- [day-66 - Perfectly balanced](https://github.com/IAPOLINARIO/100-days-of-code/tree/main/Month-3/Week-10/day-66)
+- [day-67 - A Game of Threes](https://github.com/IAPOLINARIO/100-days-of-code/tree/main/Month-3/Week-10/day-67)
+- [day-68 - Write a Web Crawler](https://github.com/IAPOLINARIO/100-days-of-code/tree/main/Month-3/Week-10/day-68)
+- [day-69 - Funny plant](https://github.com/IAPOLINARIO/100-days-of-code/tree/main/Month-3/Week-10/day-69)
+- [day-70 - The rabbit problem](https://github.com/IAPOLINARIO/100-days-of-code/tree/main/Month-3/Week-10/day-70)
