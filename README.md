@@ -117,3 +117,12 @@ Data de Início: 01/01/2023
 - [day-76 - The Cake Thief](https://github.com/IAPOLINARIO/100-days-of-code/tree/main/Month-3/Week-11/day-76)
 - [day-77 - Bot saves princess](https://github.com/IAPOLINARIO/100-days-of-code/tree/main/Month-3/Week-11/day-77)
 
+### Week 12:
+- [day-78 - A number without numbers](https://github.com/IAPOLINARIO/100-days-of-code/tree/main/Month-3/Week-12/day-78)
+- [day-79 - Analog Clock](https://github.com/IAPOLINARIO/100-days-of-code/tree/main/Month-3/Week-12/day-79)
+- [day-80 - Make it look like you are working](https://github.com/IAPOLINARIO/100-days-of-code/tree/main/Month-3/Week-12/day-80)
+- [day-81 - Draw the “G” Logo](https://github.com/IAPOLINARIO/100-days-of-code/tree/main/Month-3/Week-12/day-81)
+- [day-82 - Tidy Numbers](https://github.com/IAPOLINARIO/100-days-of-code/tree/main/Month-3/Week-12/day-82)
+- [day-83 - Bathroom Stalls](https://github.com/IAPOLINARIO/100-days-of-code/tree/main/Month-3/Week-12/day-83)
+- [day-84 - Vestigium](https://github.com/IAPOLINARIO/100-days-of-code/tree/main/Month-3/Week-12/day-84)
+
