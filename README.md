@@ -107,3 +107,13 @@ Data de Início: 01/01/2023
 - [day-68 - Clarence the Slow Typist](https://github.com/IAPOLINARIO/100-days-of-code/tree/main/Month-3/Week-10/day-68)
 - [day-69 - Garage Door Opener](https://github.com/IAPOLINARIO/100-days-of-code/tree/main/Month-3/Week-10/day-69)
 - [day-70 - Broken Keyboard](https://github.com/IAPOLINARIO/100-days-of-code/tree/main/Month-3/Week-10/day-70)
+
+### Week 11:
+- [day-71 - How long has the light been on?](https://github.com/IAPOLINARIO/100-days-of-code/tree/main/Month-3/Week-11/day-71)
+- [day-72 - L33tspeak Converter](https://github.com/IAPOLINARIO/100-days-of-code/tree/main/Month-3/Week-11/day-72)
+- [day-73 - L33tspeak Translator](https://github.com/IAPOLINARIO/100-days-of-code/tree/main/Month-3/Week-11/day-73)
+- [day-74 - CATTLEMETER](https://github.com/IAPOLINARIO/100-days-of-code/tree/main/Month-3/Week-11/day-74)
+- [day-75 - Minesweeper](https://github.com/IAPOLINARIO/100-days-of-code/tree/main/Month-3/Week-11/day-75)
+- [day-76 - The Cake Thief](https://github.com/IAPOLINARIO/100-days-of-code/tree/main/Month-3/Week-11/day-76)
+- [day-77 - Bot saves princess](https://github.com/IAPOLINARIO/100-days-of-code/tree/main/Month-3/Week-11/day-77)
+
