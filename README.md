@@ -126,3 +126,12 @@ Data de Início: 01/01/2023
 - [day-83 - Bathroom Stalls](https://github.com/IAPOLINARIO/100-days-of-code/tree/main/Month-3/Week-12/day-83)
 - [day-84 - Vestigium](https://github.com/IAPOLINARIO/100-days-of-code/tree/main/Month-3/Week-12/day-84)
 
+### Week 13:
+- [day-85 - TCP/IP Client and Server](https://github.com/IAPOLINARIO/100-days-of-code/tree/main/Month-3/Week-13/day-85)
+- [day-86 - Way Too Long Words](https://github.com/IAPOLINARIO/100-days-of-code/tree/main/Month-3/Week-13/day-86)
+- [day-87 - Hulk](https://github.com/IAPOLINARIO/100-days-of-code/tree/main/Month-3/Week-13/day-87)
+- [day-88 - Hit the Lottery](https://github.com/IAPOLINARIO/100-days-of-code/tree/main/Month-3/Week-13/day-88)
+- [day-89 - Minutes Before the New Year](https://github.com/IAPOLINARIO/100-days-of-code/tree/main/Month-3/Week-13/day-89)
+- [day-90 - Radio Station](https://github.com/IAPOLINARIO/100-days-of-code/tree/main/Month-3/Week-13/day-90)
+- [day-91 - Cyberpunk 2078](https://github.com/IAPOLINARIO/100-days-of-code/tree/main/Month-3/Week-13/day-91)
+
