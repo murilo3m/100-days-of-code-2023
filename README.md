@@ -135,3 +135,15 @@ Data de Início: 01/01/2023
 - [day-90 - Radio Station](https://github.com/IAPOLINARIO/100-days-of-code/tree/main/Month-3/Week-13/day-90)
 - [day-91 - Cyberpunk 2078](https://github.com/IAPOLINARIO/100-days-of-code/tree/main/Month-3/Week-13/day-91)
 
+### Week 14:
+- [day-92 - New Year Candles](https://github.com/IAPOLINARIO/100-days-of-code/tree/main/Month-4/Week-14/day-92)
+- [day-93 - Dreamoon and Stairs](https://github.com/IAPOLINARIO/100-days-of-code/tree/main/Month-4/Week-14/day-93)
+- [day-94 - Superhero Transformation](https://github.com/IAPOLINARIO/100-days-of-code/tree/main/Month-4/Week-14/day-94)
+- [day-95 - Free Cash](https://github.com/IAPOLINARIO/100-days-of-code/tree/main/Month-4/Week-14/day-95)
+- [day-96 - Beautiful Paintings](https://github.com/IAPOLINARIO/100-days-of-code/tree/main/Month-4/Week-14/day-96)
+- [day-97 - Elephant](https://github.com/IAPOLINARIO/100-days-of-code/tree/main/Month-4/Week-14/day-97)
+- [day-98 - Geography of Brazil](https://github.com/IAPOLINARIO/100-days-of-code/tree/main/Month-4/Week-14/day-98)
+
+### Week 15:
+- [day-99 - How is the Weather?](https://github.com/IAPOLINARIO/100-days-of-code/tree/main/Month-4/Week-15/day-99)
+- [day-100 - Final Hello World](https://github.com/IAPOLINARIO/100-days-of-code/tree/main/Month-4/Week-15/day-100)
