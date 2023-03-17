@@ -42,14 +42,13 @@ Data de Início: 01/01/2023
 - [day-17 - Prison Break [✅]](https://github.com/IAPOLINARIO/100-days-of-code/tree/main/Month-1/Week-03/day-17)
 - [day-18 - Unique Paths [✅]](https://github.com/IAPOLINARIO/100-days-of-code/tree/main/Month-1/Week-03/day-18)
 - [day-19 - URL Shortener [✅]](https://github.com/IAPOLINARIO/100-days-of-code/tree/main/Month-1/Week-03/day-19)
-- [day-20 - API Challenge - [✅]](https://github.com/IAPOLINARIO/100-days-of-code/tree/main/Month-1/Week-03/day-20)
+- [day-20 - API Challenge [✅]](https://github.com/IAPOLINARIO/100-days-of-code/tree/main/Month-1/Week-03/day-20)
 - [day-21 - Random Maze Generator [✅]](https://github.com/IAPOLINARIO/100-days-of-code/tree/main/Month-1/Week-03/day-21)
 
 ### Week 4:
-- [day-22 - Marcio Mello's Challenge](https://github.com/IAPOLINARIO/100-days-of-code/tree/main/Month-1/Week-04/day-22)
-- [day-23 - The Dining Philosophers](https://github.com/IAPOLINARIO/100-days-of-code/tree/main/Month-1/Week-04/day-23)
-- [day-24 - The Josephus Problem](https://github.com/IAPOLINARIO/100-days-of-code/tree/main/Month-1/Week-04/day-24)
-- [day-25 - Coin Trouble](https://github.com/IAPOLINARIO/100-days-of-code/tree/main/Month-1/Week-04/day-25)
+- [day-23 - The Dining Philosophers [✅]](https://github.com/IAPOLINARIO/100-days-of-code/tree/main/Month-1/Week-04/day-23)
+- [day-24 - The Josephus Problem [✅]](https://github.com/IAPOLINARIO/100-days-of-code/tree/main/Month-1/Week-04/day-24)
+- [day-25 - Coin Trouble [✅]](https://github.com/IAPOLINARIO/100-days-of-code/tree/main/Month-1/Week-04/day-25)
 - [day-26 - Briefcase Lock](https://github.com/IAPOLINARIO/100-days-of-code/tree/main/Month-1/Week-04/day-26)
 - [day-27 - Task Scheduler](https://github.com/IAPOLINARIO/100-days-of-code/tree/main/Month-1/Week-04/day-27)
 - [day-28 - Word Search3](https://github.com/IAPOLINARIO/100-days-of-code/tree/main/Month-1/Week-04/day-28)

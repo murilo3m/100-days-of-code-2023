@@ -21,4 +21,25 @@ public class Week04Controller {
         int footballFields = week04Service.convertToFootballFields(deforestedArea);
         return ResponseEntity.status(HttpStatus.OK).body(footballFields);
     }
+
+    @GetMapping("/day23/{input}")
+    @ApiOperation(value = "The Dining Philosophers - Método muito loco de filósofos que não rolou implementar", notes = "")
+    public ResponseEntity<String> dayTwentyThree(@PathVariable Integer input){
+        String theDinningPhilosophers = week04Service.theDinningPhilosophers(input);
+        return ResponseEntity.status(HttpStatus.OK).body(theDinningPhilosophers);
+    }
+
+    @GetMapping("/day24/{n}/{i}")
+    @ApiOperation(value = "The Josephus Problem - Método que retorna o soldado sobrevivente baseado no input", notes = "Exemplo de input: \"41, 3\" - Resposta: 31")
+    public ResponseEntity<Integer> dayTwentyFour(@PathVariable Integer n, @PathVariable Integer i){
+        Integer josephus = week04Service.josephus(n, i);
+        return ResponseEntity.status(HttpStatus.OK).body(josephus);
+    }
+
+    @GetMapping("/day25/{n}")
+    @ApiOperation(value = "The Josephus Problem - Método que retorna o soldado sobrevivente baseado no input", notes = "Exemplo de input: \"[1, 2, 3, 2, 2, 2, 3]\" - Resposta: true")
+    public ResponseEntity<Boolean> dayTwentyFive(@PathVariable int[] n){
+        Boolean coinsDiv = week04Service.coinsDiv(n);
+        return ResponseEntity.status(HttpStatus.OK).body(coinsDiv);
+    }
 }
