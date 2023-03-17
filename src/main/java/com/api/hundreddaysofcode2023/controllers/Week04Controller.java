@@ -37,9 +37,16 @@ public class Week04Controller {
     }
 
     @GetMapping("/day25/{n}")
-    @ApiOperation(value = "The Josephus Problem - Método que retorna o soldado sobrevivente baseado no input", notes = "Exemplo de input: \"[1, 2, 3, 2, 2, 2, 3]\" - Resposta: true")
+    @ApiOperation(value = "Coin Trouble - Método que retorna se da pra divir as moedas igualmente para os três filhos", notes = "Exemplo de input: \"[1, 2, 3, 2, 2, 2, 3]\" - Resposta: true")
     public ResponseEntity<Boolean> dayTwentyFive(@PathVariable int[] n){
         Boolean coinsDiv = week04Service.coinsDiv(n);
         return ResponseEntity.status(HttpStatus.OK).body(coinsDiv);
+    }
+
+    @GetMapping("/day26/{current}/{target}")
+    @ApiOperation(value = "Briefcase Lock - Método que retorna menor número de voltas para transformar a trava", notes = "Exemplo de input: \"4089, 5672\" - Resposta: 9")
+    public ResponseEntity<Integer> dayTwentyFive(@PathVariable String current, @PathVariable String target){
+        Integer minTurns = week04Service.minTurns(current, target);
+        return ResponseEntity.status(HttpStatus.OK).body(minTurns);
     }
 }

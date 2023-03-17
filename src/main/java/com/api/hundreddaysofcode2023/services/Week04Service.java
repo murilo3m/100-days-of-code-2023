@@ -3,6 +3,7 @@ package com.api.hundreddaysofcode2023.services;
 import org.springframework.stereotype.Service;
 
 import java.util.Arrays;
+import java.util.stream.IntStream;
 
 @Service
 public class Week04Service {
@@ -45,5 +46,12 @@ public class Week04Service {
         return distributeCoins(coins, index + 1, sum1 + coins[index], sum2, target)
                 || distributeCoins(coins, index + 1, sum1, sum2 + coins[index], target)
                 || distributeCoins(coins, index + 1, sum1, sum2, target);
+    }
+
+    //Uma pasta tem uma trava rolante de 4 dígitos. Cada dígito é um número de 0-9 que pode ser rolado tanto para frente quanto para trás. Crie uma função que retorna o menor número de voltas necessárias para transformar a trava da combinação de corrente para a combinação alvo. Uma volta é equivalente a rolar um número para frente ou para trás por um.
+    public Integer minTurns(String current, String target) {
+        return IntStream.range(0, 4)
+                .map(i -> Math.min(Math.abs(current.charAt(i) - target.charAt(i)), 10 - Math.abs(current.charAt(i) - target.charAt(i))))
+                .sum();
     }
 }
