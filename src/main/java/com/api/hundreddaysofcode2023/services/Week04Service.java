@@ -54,4 +54,22 @@ public class Week04Service {
                 .map(i -> Math.min(Math.abs(current.charAt(i) - target.charAt(i)), 10 - Math.abs(current.charAt(i) - target.charAt(i))))
                 .sum();
     }
+
+    public Integer leastInterval(char[] tasks, int n) {
+        int[] count = new int[26];
+        for (char task : tasks) {
+            count[task - 'A']++;
+        }
+        Arrays.sort(count);
+
+        int maxCount = 0;
+        for (int i = 25; i >= 0; i--) {
+            if (count[i] != count[25]) {
+                break;
+            }
+            maxCount++;
+        }
+
+        return Math.max(tasks.length, (count[25] - 1) * (n + 1) + maxCount);
+    }
 }

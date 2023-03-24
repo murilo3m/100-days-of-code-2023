@@ -45,8 +45,15 @@ public class Week04Controller {
 
     @GetMapping("/day26/{current}/{target}")
     @ApiOperation(value = "Briefcase Lock - Método que retorna menor número de voltas para transformar a trava", notes = "Exemplo de input: \"4089, 5672\" - Resposta: 9")
-    public ResponseEntity<Integer> dayTwentyFive(@PathVariable String current, @PathVariable String target){
+    public ResponseEntity<Integer> dayTwentySix(@PathVariable String current, @PathVariable String target){
         Integer minTurns = week04Service.minTurns(current, target);
         return ResponseEntity.status(HttpStatus.OK).body(minTurns);
+    }
+
+    @GetMapping("/day27/{tasks}/{n}")
+    @ApiOperation(value = "Briefcase Lock - Método que retorna menor número de voltas para transformar a trava", notes = "Exemplo de input: \"4089, 5672\" - Resposta: 9")
+    public ResponseEntity<Integer> dayTwentySeven(@PathVariable char[] tasks, @PathVariable Integer n){
+        Integer leastInterval = week04Service.leastInterval(tasks, n);
+        return ResponseEntity.status(HttpStatus.OK).body(leastInterval);
     }
 }
