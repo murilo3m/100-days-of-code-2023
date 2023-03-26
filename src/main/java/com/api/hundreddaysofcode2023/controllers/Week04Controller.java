@@ -7,6 +7,8 @@ import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
+import java.util.List;
+
 @RestController
 @CrossOrigin(origins = "", maxAge = 3600)
 @RequestMapping("/week-04")
@@ -51,9 +53,22 @@ public class Week04Controller {
     }
 
     @GetMapping("/day27/{tasks}/{n}")
-    @ApiOperation(value = "Briefcase Lock - Método que retorna menor número de voltas para transformar a trava", notes = "Exemplo de input: \"4089, 5672\" - Resposta: 9")
+    @ApiOperation(value = "Task Scheduler - Método que retorna menor número de unidades que uma CPU levará para concluir tarefas", notes = "Exemplo de input: \"4089, 5672\" - Resposta: 9")
     public ResponseEntity<Integer> dayTwentySeven(@PathVariable char[] tasks, @PathVariable Integer n){
         Integer leastInterval = week04Service.leastInterval(tasks, n);
         return ResponseEntity.status(HttpStatus.OK).body(leastInterval);
+    }
+
+    @GetMapping("/day28/{board}/{words}")
+    @ApiOperation(value = "Task Scheduler - Método que retorna menor número de unidades que uma CPU levará para concluir tarefas", notes = "Exemplo de input: \"board = [\n" +
+            "  ['o','a','a','n'],\n" +
+            "  ['e','t','a','e'],\n" +
+            "  ['i','h','k','r'],\n" +
+            "  ['i','f','l','v']\n" +
+            "]" +
+            "words = [\"oath\",\"pea\",\"eat\",\"rain\"]\" - Resposta: \"words = [\\\"oath\\\",\\\"pea\\\",\\\"eat\\\",\\\"rain\\\"]\\\" - Resposta: 9\")\n")
+    public ResponseEntity<List<String>> dayTwentyEight(@PathVariable char[][] board, @PathVariable String[] words){
+        List<String> findWords = week04Service.findWords(board, words);
+        return ResponseEntity.status(HttpStatus.OK).body(findWords);
     }
 }

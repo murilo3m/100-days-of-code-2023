@@ -2,7 +2,9 @@ package com.api.hundreddaysofcode2023.services;
 
 import org.springframework.stereotype.Service;
 
+import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.List;
 import java.util.stream.IntStream;
 
 @Service
@@ -55,6 +57,11 @@ public class Week04Service {
                 .sum();
     }
 
+    //Dada uma série de tarefas de caracteres, representando as tarefas que uma CPU precisa fazer, onde cada letra representa uma tarefa diferente. As tarefas podem ser feitas em qualquer ordem. Cada tarefa é feita em uma unidade de tempo. Para cada unidade de tempo, a CPU poderia completar uma tarefa ou apenas ficar ociosa.
+    //
+    //Entretanto, há um inteiro n não negativo que representa o período de espera entre duas mesmas tarefas (a mesma letra na matriz), ou seja, deve haver pelo menos n unidades de tempo entre quaisquer duas mesmas tarefas.
+    //
+    //Devolver o menor número de unidades de tempo que a CPU levará para concluir todas as tarefas dadas.
     public Integer leastInterval(char[] tasks, int n) {
         int[] count = new int[26];
         for (char task : tasks) {
@@ -71,5 +78,50 @@ public class Week04Service {
         }
 
         return Math.max(tasks.length, (count[25] - 1) * (n + 1) + maxCount);
+    }
+
+    //Dado um tabuleiro 2D e uma lista de palavras do dicionário, encontre todas as palavras no tabuleiro.
+    //
+    //Cada palavra deve ser construída a partir de letras de células adjacentes sequencialmente, onde as células "adjacentes" são aquelas adjacentes horizontalmente ou verticalmente. A mesma célula de letra não pode ser usada mais de uma vez em uma palavra.
+    public List<String> findWords(char[][] board, String[] words) {
+        List<String> result = new ArrayList<>();
+        if (board == null || board.length == 0 || board[0].length == 0 || words == null || words.length == 0) {
+            return result;
+        }
+        int m = board.length;
+        int n = board[0].length;
+        boolean[][] visited = new boolean[m][n];
+        for (String word : words) {
+            boolean found = false;
+            for (int i = 0; i < m; i++) {
+                for (int j = 0; j < n; j++) {
+                    if (dfs(board, visited, word, i, j, 0)) {
+                        found = true;
+                        result.add(word);
+                        break;
+                    }
+                }
+                if (found) {
+                    break;
+                }
+            }
+        }
+        return result;
+    }
+
+    private boolean dfs(char[][] board, boolean[][] visited, String word, int i, int j, int k) {
+        if (k == word.length()) {
+            return true;
+        }
+        if (i < 0 || i >= board.length || j < 0 || j >= board[0].length || visited[i][j] || board[i][j] != word.charAt(k)) {
+            return false;
+        }
+        visited[i][j] = true;
+        boolean result = dfs(board, visited, word, i - 1, j, k + 1) ||
+                dfs(board, visited, word, i + 1, j, k + 1) ||
+                dfs(board, visited, word, i, j - 1, k + 1) ||
+                dfs(board, visited, word, i, j + 1, k + 1);
+        visited[i][j] = false;
+        return result;
     }
 }
